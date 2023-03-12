@@ -8,9 +8,19 @@ body {
     line-height: 1.2;
     background-color: burlywood;
 }
+details > summary {
+    list-style: none;
+  }
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
+.bayan {
+    max-width: 320px;
+    box-shadow: 0 0 7px 2px rgb(34, 143, 227);
+}
+
