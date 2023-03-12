@@ -8,3 +8,9 @@ body {
     line-height: 1.2;
     background-color: burlywood;
 }
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
