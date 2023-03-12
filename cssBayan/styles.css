@@ -39,7 +39,17 @@ details > summary {
     border-bottom: 3px solid blueviolet;
     padding: 10px 50px 10px 20px;
     transition: 0.4s all;
+    position: relative;
 }
 .bayan__title:hover {
     background-color: rgb(219, 192, 15);
+}
+.bayan__title::before {
+    display: block;
+    content: '▼';
+    font-size: 12px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
 }
