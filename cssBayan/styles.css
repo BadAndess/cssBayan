@@ -11,16 +11,19 @@ body {
 details > summary {
     list-style: none;
   }
-
+.header {
+    padding: 10px 0 0 10px;
+    color: rgb(69, 6, 6);
+}
 .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: unset;
     min-height: 100vh;
 }
 .bayan {
-    max-width: 320px;
+    max-width: 100%;
     box-shadow:   2px rgb(34, 143, 227);
 }
 .bayan__item {
@@ -56,8 +59,9 @@ details > summary {
 .bayan__item[open] .bayan__title::after {
   transform: translateY(-50%) rotate(180deg);
 }
-
-
 .bayan__body {
     padding: 15px;
+}
+.bayan {
+    padding: 0 10px;
 }
