@@ -44,7 +44,7 @@ details > summary {
 .bayan__title:hover {
     background-color: rgb(219, 192, 15);
 }
-.bayan__title::before {
+.bayan__title::after {
     display: block;
     content: '▼';
     font-size: 12px;
@@ -52,4 +52,12 @@ details > summary {
     right: 12px;
     top: 50%;
     transform: translateY(-50%);
+}
+.bayan__item[open] .bayan__title::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+
+.bayan__body {
+    padding: 15px;
 }
