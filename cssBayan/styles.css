@@ -21,6 +21,25 @@ details > summary {
 }
 .bayan {
     max-width: 320px;
-    box-shadow: 0 0 7px 2px rgb(34, 143, 227);
+    box-shadow:   2px rgb(34, 143, 227);
 }
-
+.bayan__item {
+    background-color: blueviolet;
+    color: aqua;
+    position: relative;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.bayan__title {
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 3px solid blueviolet;
+    padding: 10px 50px 10px 20px;
+    transition: 0.4s all;
+}
+.bayan__title:hover {
+    background-color: rgb(219, 192, 15);
+}
